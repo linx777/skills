@@ -14,6 +14,7 @@ This repository hosts self-contained AI skills. Each skill packages domain guida
 ## Current Skills
 
 - `vercel-react-best-practices` — React and Next.js performance optimization guidelines from Vercel Engineering.
+- `landing-page-optimizer` — Conversion-focused landing page optimization playbook.
 - Anthropic pack under `skills/anthropic/`:
   - `algorithmic-art`
   - `brand-guidelines`
