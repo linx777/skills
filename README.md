@@ -4,7 +4,7 @@ This repository hosts self-contained AI skills. Each skill packages domain guida
 
 ## Layout
 
-- `skills/<skill-id>/` — one folder per skill (you can also namespace, e.g., `skills/anthropic/<skill-id>/`)
+- `skills/<skill-id>/` — one folder per skill (you can also namespace, e.g., `skills/anthropic/<skill-id>/` or `skills/unofficial/<skill-id>/`)
   - `README.md` — scope, usage, and maintenance notes for the skill
   - `SKILL.md` — name/description/trigger metadata
   - `AGENTS.md` — compiled guide an agent can load directly
@@ -14,7 +14,8 @@ This repository hosts self-contained AI skills. Each skill packages domain guida
 ## Current Skills
 
 - `vercel-react-best-practices` — React and Next.js performance optimization guidelines from Vercel Engineering.
-- `landing-page-optimizer` — Conversion-focused landing page optimization playbook.
+- Unofficial pack under `skills/unofficial/`:
+  - `landing-page-optimizer` — Conversion-focused landing page optimization playbook.
 - Anthropic pack under `skills/anthropic/`:
   - `algorithmic-art`
   - `brand-guidelines`
