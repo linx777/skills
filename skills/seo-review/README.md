@@ -22,23 +22,6 @@ Covers keyword cluster selection, on-page audit items, featured snippet optimiza
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add seo-review
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: seo-review
-    checks: [keywords, links]
-    output: diff
-```
-
 ## Repository
 
 https://github.com/leonardomso/33-js-concepts/tree/master/.opencode/skill/seo-review

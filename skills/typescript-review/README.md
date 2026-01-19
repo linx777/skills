@@ -22,23 +22,6 @@ Focuses on code quality, JSDoc correctness, type safety, and React best practice
 - Metabase
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add typescript-review
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: typescript-review
-    style: metabase
-    tests: suggest
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/typescript-review

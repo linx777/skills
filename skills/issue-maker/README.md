@@ -23,23 +23,6 @@ Outlines information to capture for issues, including logs, environment, repro, 
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add issue-maker
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: issue-maker
-    platform: pollinations
-    template: required
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/issue-maker

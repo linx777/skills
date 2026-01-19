@@ -22,23 +22,6 @@ Explains test locations per workspace, TestEditor vs Editor usage, common helper
 - tldraw
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-unit-tests
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-unit-tests
-    framework: vitest
-    coverage: 80
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/write-unit-tests

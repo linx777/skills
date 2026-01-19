@@ -22,23 +22,6 @@ Rewrites and prioritizes resume content based on a job description, emphasizing 
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add tailored-resume-generator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: tailored-resume-generator
-    format: resume
-    optimize: ats
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/tailored-resume-generator

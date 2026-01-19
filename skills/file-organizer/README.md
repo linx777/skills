@@ -22,23 +22,6 @@ Audits messy directories and proposes a structured folder plan with consistent n
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add file-organizer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: file-organizer
-    rules: naming
-    mode: organize
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer

@@ -22,23 +22,6 @@ Details mutation patterns, success/error handling, and component composition for
 - Svelte
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add svelte
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: svelte
-    query: tanstack
-    ui: shadcn
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/svelte

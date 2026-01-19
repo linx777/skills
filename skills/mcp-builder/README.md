@@ -22,23 +22,6 @@ A development guide that walks through designing, scaffolding, and hardening MCP
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add mcp-builder
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: mcp-builder
-    languages: [python, typescript]
-    templates: enabled
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/mcp-builder

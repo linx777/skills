@@ -23,23 +23,6 @@ A frontend toolkit for multi-component claude.ai artifacts that need state manag
 - React 18+
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add web-artifacts-builder
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: web-artifacts-builder
-    frameworks: [react, tailwind, shadcn]
-    init_script: scripts/init-artifact.sh
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder

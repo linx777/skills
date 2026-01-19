@@ -22,22 +22,6 @@ Keeps posts concise, technical, and free of marketing fluff, with platform-speci
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add social-media
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: social-media
-    platforms: [linkedin, reddit, x]
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/social-media

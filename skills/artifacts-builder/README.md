@@ -22,23 +22,6 @@ Turns rough ideas into shippable artifacts by assembling layout structure, asset
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add artifacts-builder
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: artifacts-builder
-    format: multi
-    export: ready
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/artifacts-builder

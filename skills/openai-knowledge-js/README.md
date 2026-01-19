@@ -22,23 +22,6 @@ Tailored for the JS/TS stack, this skill answers OpenAI product questions and ma
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add openai-knowledge-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: openai-knowledge
-    runtime: node
-    citations: true
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/openai-knowledge

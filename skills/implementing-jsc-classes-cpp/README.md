@@ -22,23 +22,6 @@ Details class/constructor/prototype structure, iso subspaces, property tables, a
 - Bun
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add implementing-jsc-classes-cpp
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: implementing-jsc-classes-cpp
-    language: cpp
-    bindings: jsc
-```
-
 ## Repository
 
 https://github.com/oven-sh/bun/tree/main/.claude/skills/implementing-jsc-classes-cpp

@@ -22,23 +22,6 @@ Connects to LangSmith to retrieve runs, traces, and dataset metadata, then packa
 - LangSmith
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add langsmith-fetch
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: langsmith-fetch
-    resources: runs,datasets
-    output: json
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/langsmith-fetch

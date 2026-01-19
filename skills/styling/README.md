@@ -22,23 +22,6 @@ Promotes minimal wrappers, Tailwind best practices, and utility composition for 
 - Tailwind
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add styling
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: styling
-    framework: tailwind
-    utils: cn
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/styling

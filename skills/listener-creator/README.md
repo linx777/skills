@@ -22,23 +22,6 @@ Builds message listeners with filtering, routing rules, and test hooks. Keeps in
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add listener-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: listener-creator
-    channel: email
-    filters: true
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-agent-sdk-demos/tree/main/email-agent/agent/.claude/skills/listener-creator

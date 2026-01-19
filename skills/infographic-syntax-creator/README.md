@@ -23,23 +23,6 @@ Describes how to extract structure, select templates, and produce valid plain sy
 - Infographic
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add infographic-syntax-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: infographic-syntax-creator
-    output: plain
-    prompt: references/prompt.md
-```
-
 ## Repository
 
 https://github.com/antvis/Infographic/tree/main/.skills/infographic-syntax-creator

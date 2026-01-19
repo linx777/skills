@@ -23,23 +23,6 @@ Explains how to submit, review, and manage Gerrit changes in the Storj project.
 - Gerrit
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add gerrit-storj
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: gerrit
-    platform: storj
-    review: required
-```
-
 ## Repository
 
 https://github.com/storj/storj/tree/main/.claude/skills/gerrit

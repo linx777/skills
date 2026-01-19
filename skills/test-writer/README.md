@@ -22,23 +22,6 @@ Describes phases for extracting examples, structuring tests, handling special ca
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add test-writer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: test-writer
-    framework: vitest
-    mode: examples
-```
-
 ## Repository
 
 https://github.com/leonardomso/33-js-concepts/tree/master/.opencode/skill/test-writer

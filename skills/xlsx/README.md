@@ -23,23 +23,6 @@ A spreadsheet powerhouse for generating, editing, and analyzing XLSX/CSV files. 
 - Python 3.10+
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add xlsx
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: xlsx
-    formulas: true
-    recalc: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/xlsx

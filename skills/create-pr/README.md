@@ -23,23 +23,6 @@ Explains the title pattern with types/scopes, gh workflow with template body, an
 - GitHub
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add create-pr
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: create-pr
-    platform: n8n
-    checklist: true
-```
-
 ## Repository
 
 https://github.com/n8n-io/n8n/tree/master/.claude/skills/create-pr

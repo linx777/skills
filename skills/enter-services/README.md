@@ -23,23 +23,6 @@ Provides steps to set up services, configure requirements, and communicate onboa
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add enter-services
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: enter-services
-    platform: pollinations
-    onboarding: true
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/enter-services

@@ -23,23 +23,6 @@ Generates three-statement models, sensitivity tabs, and QA checks. It keeps assu
 - XLSX
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add creating-financial-models
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: creating-financial-models
-    format: xlsx
-    scenarios: true
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-cookbooks/tree/main/skills/custom_skills/creating-financial-models

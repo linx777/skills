@@ -22,23 +22,6 @@ Includes auditing existing links, target counts per resource type, search querie
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add resource-curator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: resource-curator
-    tags: difficulty,format
-    output: list
-```
-
 ## Repository
 
 https://github.com/leonardomso/33-js-concepts/tree/master/.opencode/skill/resource-curator

@@ -22,23 +22,6 @@ Points to development workflow and TypeScript command references to keep new cod
 - Metabase
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add typescript-write
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: typescript-write
-    style: metabase
-    tests: true
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/typescript-write

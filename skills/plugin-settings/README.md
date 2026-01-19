@@ -22,23 +22,6 @@ Documents the plugin settings pattern, showing how to read/write .local.md files
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add plugin-settings
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: plugin-settings
-    storage: .local.md
-    format: yaml+markdown
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/plugin-settings

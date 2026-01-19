@@ -22,23 +22,6 @@ Explains what skills provide, concise writing principles, degrees of freedom, an
 - tldraw
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add tldraw-skill-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-creator
-    platform: tldraw
-    templates: true
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/skill-creator

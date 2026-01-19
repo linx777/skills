@@ -22,23 +22,6 @@ Defines configurable knobs for agents - tool access, safety thresholds, routing 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add configured-agent
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: configured-agent
-    presets: true
-    safety: configurable
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/plugin-settings

@@ -22,23 +22,6 @@ Details the macro reordering, AT_WRAP usage, type-group expansion, and header in
 - PyTorch
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add at-dispatch-v2
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: at-dispatch-v2
-    header: Dispatch_v2
-    macros: convert
-```
-
 ## Repository
 
 https://github.com/pytorch/pytorch/tree/main/.claude/skills/at-dispatch-v2

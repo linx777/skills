@@ -22,23 +22,6 @@ A plugin-dev mentor that covers ideation, triggers, YAML metadata, and validatio
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add skill-development
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-development
-    templates: true
-    safety: reminders
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/skill-development

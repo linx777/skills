@@ -22,23 +22,6 @@ Monitors diffs, updates docs, and creates PRs or issues when documentation lags 
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add docs-sync
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: docs-sync
-    mode: watch
-    output: pr
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/docs-sync

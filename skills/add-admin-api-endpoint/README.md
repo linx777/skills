@@ -22,23 +22,6 @@ Shows where to place endpoint controllers, how to register routes, and how to co
 - Ghost
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add add-admin-api-endpoint
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: add-admin-api-endpoint
-    auth: admin
-    tests: required
-```
-
 ## Repository
 
 https://github.com/TryGhost/Ghost/tree/main/.claude/skills/add-admin-api-endpoint

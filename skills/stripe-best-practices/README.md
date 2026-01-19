@@ -23,23 +23,6 @@ Reviews Stripe integrations for API usage, idempotency, and webhook hardening. S
 - Stripe API
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add stripe-best-practices
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: stripe-best-practices
-    checks: [webhooks, api]
-    mode: review
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/stripe/skills/stripe-best-practices

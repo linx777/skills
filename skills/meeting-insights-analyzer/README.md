@@ -22,23 +22,6 @@ Transforms meeting notes or transcripts into structured summaries with decisions
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add meeting-insights-analyzer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: meeting-insights-analyzer
-    output: summary
-    include: actions,decisions
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer

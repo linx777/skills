@@ -22,23 +22,6 @@ Covers skill anatomy, degrees of freedom, progressive disclosure, and when to ad
 - Codex CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add skill-creator-kimi
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-creator
-    platform: kimi-cli
-    resources: optional
-```
-
 ## Repository
 
 https://github.com/MoonshotAI/kimi-cli/tree/main/src/kimi_cli/skills/skill-creator

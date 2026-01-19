@@ -22,23 +22,6 @@ Explains devTest utilities, file layout, fixtures, and how to assert hot reload 
 - Bun
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add writing-dev-server-tests
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: writing-dev-server-tests
-    runner: bun
-    headless: true
-```
-
 ## Repository
 
 https://github.com/oven-sh/bun/tree/main/.claude/skills/writing-dev-server-tests

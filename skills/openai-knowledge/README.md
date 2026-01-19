@@ -22,23 +22,6 @@ A knowledge skill that maps OpenAI docs, announcements, and FAQs into structured
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add openai-knowledge
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: openai-knowledge
-    sources: official
-    citations: true
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/openai-knowledge

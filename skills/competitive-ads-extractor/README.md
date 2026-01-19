@@ -22,23 +22,6 @@ Collects and structures competitive ad creatives, headlines, and calls-to-action
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add competitive-ads-extractor
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: competitive-ads-extractor
-    sources: ads
-    output: table
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor

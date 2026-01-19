@@ -22,23 +22,6 @@ Calculates activation, retention, and conversion trends from developer adoption 
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add developer-growth-analysis
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: developer-growth-analysis
-    metrics: activation,retention
-    output: report
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis

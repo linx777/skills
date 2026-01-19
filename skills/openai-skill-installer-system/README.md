@@ -21,23 +21,6 @@ A system-grade installer that fetches, validates, and registers skills with safe
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add openai-skill-installer-system
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-installer
-    profile: system
-    validate: strict
-```
-
 ## Repository
 
 https://github.com/openai/skills/tree/main/skills/.system/skill-installer

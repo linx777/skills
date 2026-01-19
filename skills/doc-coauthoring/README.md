@@ -22,23 +22,6 @@ Guides teams through context gathering, iterative structuring, and reader testin
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add doc-coauthoring
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: doc-coauthoring
-    workflow: guided
-    stages: 3
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring

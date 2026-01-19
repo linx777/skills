@@ -22,23 +22,6 @@ Focuses on the “why” of a directory, providing mental models and avoiding re
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add readme-writing
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: readme-writing
-    scope: folder
-    focus: purpose
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/readme-writing

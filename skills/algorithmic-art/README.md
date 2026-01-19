@@ -23,23 +23,6 @@ A creative coding skill that first writes an algorithmic art philosophy, then sh
 - p5.js
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add algorithmic-art
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: algorithmic-art
-    runtime: p5.js
-    seed_controls: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/algorithmic-art

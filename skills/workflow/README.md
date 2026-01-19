@@ -22,23 +22,6 @@ Defines spec placement, timestamped plan files, simple task breakdowns, and revi
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add workflow
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: workflow
-    specs: required
-    review: summary
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/workflow

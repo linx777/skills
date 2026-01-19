@@ -22,23 +22,6 @@ Guides hypothesis creation, log analysis, and test runs to isolate issues in Pol
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add model-debugging
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: model-debugging
-    platform: pollinations
-    logs: required
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/model-debugging

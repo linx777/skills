@@ -22,23 +22,6 @@ An OpenAI-authored preflight skill that inspects code changes, proposes focused 
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add code-change-verification
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: code-change-verification
-    tests: auto
-    risk_threshold: medium
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/code-change-verification

@@ -22,23 +22,6 @@ Provides guidance for codegen in the viem tempo agent skills, covering typing, s
 - viem
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add tempo-codegen
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: tempo-codegen
-    language: typescript
-    target: viem
-```
-
 ## Repository
 
 https://github.com/wevm/viem/tree/main/.agents/skills/tempo-codegen

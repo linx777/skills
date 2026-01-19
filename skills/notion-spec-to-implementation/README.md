@@ -23,23 +23,6 @@ Reads specs from Notion and produces structured plans: milestones, tasks, owners
 - Notion API
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add notion-spec-to-implementation
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: notion-spec-to-implementation
-    output: plan
-    include: risks,owners
-```
-
 ## Repository
 
 https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation

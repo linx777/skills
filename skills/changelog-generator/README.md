@@ -22,23 +22,6 @@ Transforms commits, PR titles, and issue metadata into release-ready changelogs 
 - GitHub
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add changelog-generator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: changelog-generator
-    format: keepachangelog
-    include: fixes,features
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator

@@ -22,23 +22,6 @@ Promotes clojure-mcp tools, REPL-first loops, functional practices, and critical
 - Metabase
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add clojure-write
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: clojure-write
-    style: metabase
-    tests: true
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/clojure-write

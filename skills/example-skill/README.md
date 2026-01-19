@@ -22,22 +22,6 @@ A starter template that demonstrates SKILL.md, manifest, and handler wiring. Per
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add example-skill
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: example-skill
-    template: true
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-plugins-official/tree/main/plugins/example-plugin/skills/example-skill

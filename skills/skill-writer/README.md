@@ -22,23 +22,6 @@ Walks through scoping, folder placement, SKILL.md front matter, description form
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add skill-writer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-writer
-    templates: true
-    reviews: optional
-```
-
 ## Repository
 
 https://github.com/pytorch/pytorch/tree/main/.claude/skills/skill-writer

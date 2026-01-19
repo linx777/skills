@@ -22,23 +22,6 @@ Combines source gathering, outline generation, and draft writing into a repeatab
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add content-research-writer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: content-research-writer
-    citations: true
-    outline: true
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer

@@ -22,23 +22,6 @@ Improves image quality by suggesting cleanup steps, resolution targets, and colo
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add image-enhancer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: image-enhancer
-    upscale: true
-    cleanup: true
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer

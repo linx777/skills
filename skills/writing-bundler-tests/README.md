@@ -22,23 +22,6 @@ Covers bundler test IDs, file setup, bundler options, runtime assertions, error/
 - Bun
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add writing-bundler-tests
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: writing-bundler-tests
-    runner: bun
-    snapshots: true
-```
-
 ## Repository
 
 https://github.com/oven-sh/bun/tree/main/.claude/skills/writing-bundler-tests

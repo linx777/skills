@@ -23,23 +23,6 @@ A Vercel-built skill that inspects Next.js caching primitives, flags risky fetch
 - Next.js 14+
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add cache-components
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: cache-components
-    framework: nextjs
-    mode: audit
-```
-
 ## Repository
 
 https://github.com/vercel/next.js/tree/canary/.claude-plugin/plugins/cache-components/skills/cache-components

@@ -22,23 +22,6 @@ A meta-skill that helps you design, document, and publish Claude skills. It cove
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add skill-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-creator
-    templates: true
-    safety_notes: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/skill-creator

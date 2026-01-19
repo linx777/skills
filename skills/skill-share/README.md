@@ -22,23 +22,6 @@ Prepares skills for distribution by generating shareable summaries, version note
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add skill-share
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-share
-    include: readme,install
-    versioning: true
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-share

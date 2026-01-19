@@ -23,23 +23,6 @@ Covers internally tagged enums, serde serialization, and TS discriminated unions
 - TypeScript
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add rust-errors
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: rust-errors
-    bridge: tauri
-    schema: serde
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/rust-errors

@@ -23,23 +23,6 @@ Reads GitHub threads, surfaces context, and drafts replies that unblock authors.
 - GitHub
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add gh-address-comments
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: gh-address-comments
-    platform: github
-    tone: concise
-```
-
 ## Repository
 
 https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments

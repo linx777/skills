@@ -22,23 +22,6 @@ A plugin-dev helper that drafts new command definitions, covers input/output sch
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add command-development
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: command-development
-    language: typescript
-    templates: command
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/command-development

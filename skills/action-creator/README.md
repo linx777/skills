@@ -22,23 +22,6 @@ Designs action payloads, validation, and handler stubs for email-style agents. I
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add action-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: action-creator
-    channel: email
-    validation: strict
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-agent-sdk-demos/tree/main/email-agent/agent/.claude/skills/action-creator

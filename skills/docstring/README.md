@@ -22,23 +22,6 @@ Covers raw-string Sphinx formatting, signature lines, sections, math blocks, cro
 - PyTorch
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add docstring
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: docstring
-    format: pytorch
-    examples: true
-```
-
 ## Repository
 
 https://github.com/pytorch/pytorch/tree/main/.claude/skills/docstring

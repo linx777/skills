@@ -23,23 +23,6 @@ Explains how to gather, summarize, and communicate vote results and statuses.
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add voting-status
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: voting-status
-    platform: pollinations
-    output: summary
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/voting-status

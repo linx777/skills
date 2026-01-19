@@ -22,23 +22,6 @@ Scaffolds a plugin-style connector that manages app auth, exposes reusable actio
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add connect-apps-plugin
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: connect-apps-plugin
-    plugin: true
-    auth: shared
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/connect-apps-plugin

@@ -22,23 +22,6 @@ Executes documented examples and flags breakages before release. Ideal for libra
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add examples-auto-run
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: examples-auto-run
-    mode: ci
-    output: logs
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/examples-auto-run

@@ -22,23 +22,6 @@ Covers skill anatomy, metadata quality, progressive disclosure, and when to incl
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add skill-development
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-development
-    platform: claude-code
-    resources: optional
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/skill-development

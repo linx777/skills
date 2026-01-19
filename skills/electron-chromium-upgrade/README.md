@@ -23,23 +23,6 @@ Covers Phase One patch application via `e sync --3` and `e patches`, and Phase T
 - Chromium
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add electron-chromium-upgrade
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: electron-chromium-upgrade
-    strategy: staged
-    tests: smoke
-```
-
 ## Repository
 
 https://github.com/electron/electron/tree/main/.claude/skills/electron-chromium-upgrade

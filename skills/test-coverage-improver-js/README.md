@@ -22,23 +22,6 @@ Analyzes coverage maps and diffs in JS/TS repos, recommending Jest or Playwright
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add test-coverage-improver-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: test-coverage-improver
-    runtime: node
-    target: jest
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/test-coverage-improver

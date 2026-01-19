@@ -22,23 +22,6 @@ Walks through converting dispatch sites to AT_DISPATCH_V2, expanding type groups
 - PyTorch
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add add-uint-support
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: add-uint-support
-    types: [uint16, uint32, uint64]
-    macro: at_dispatch_v2
-```
-
 ## Repository
 
 https://github.com/pytorch/pytorch/tree/main/.claude/skills/add-uint-support

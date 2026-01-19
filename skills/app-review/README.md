@@ -23,23 +23,6 @@ Guides app evaluation, notes, and recommendations for Pollinations app submissio
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add app-review
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: app-review
-    platform: pollinations
-    output: review
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/app-review

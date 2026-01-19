@@ -23,23 +23,6 @@ Provides what to flag, what not to post, and a detailed checklist on naming, doc
 - Clojure
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add clojure-review
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: clojure-review
-    style: metabase
-    tests: suggest
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/clojure-review

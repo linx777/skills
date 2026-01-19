@@ -23,23 +23,6 @@ Provides steps for migrating data, validating transfers, and handling storage sp
 - S3 APIs
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add r2-glacier-migration
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: r2-glacier-migration
-    storage: r2+glacier
-    validate: checksums
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/r2-glacier-migration

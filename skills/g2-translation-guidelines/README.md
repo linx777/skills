@@ -22,23 +22,6 @@ Covers glossary terms, hyperlink adjustments, anchor handling, and placement of 
 - G2 Docs
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add g2-translation-guidelines
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: g2-translation
-    docs: multilingual
-    glossary: provided
-```
-
 ## Repository
 
 https://github.com/antvis/G2/tree/v5/.claude/skills/g2-translation

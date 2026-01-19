@@ -22,23 +22,6 @@ Shows bun.sys.File wrappers, Maybe(T) error handling, cross-platform flags, and 
 - Bun
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add zig-system-calls
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: zig-system-calls
-    platforms: [macos, linux, windows]
-    api: bun.sys
-```
-
 ## Repository
 
 https://github.com/oven-sh/bun/tree/main/.claude/skills/zig-system-calls

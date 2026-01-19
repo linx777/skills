@@ -23,23 +23,6 @@ Covers file layout, required declarations, setup patterns, fixtures, editor inte
 - Playwright
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-e2e-tests
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-e2e-tests
-    runner: playwright
-    headless: true
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/write-e2e-tests

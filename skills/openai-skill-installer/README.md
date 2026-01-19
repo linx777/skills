@@ -21,23 +21,6 @@ Explains how to fetch, register, and validate skills using the Codex RS sample i
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add openai-skill-installer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-installer
-    language: rust
-    validate: true
-```
-
 ## Repository
 
 https://github.com/openai/codex/tree/main/codex-rs/core/src/skills/assets/samples/skill-installer

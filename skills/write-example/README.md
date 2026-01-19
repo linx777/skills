@@ -22,23 +22,6 @@ Covers folder structure, README frontmatter, naming conventions, component layou
 - tldraw
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-example
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-example
-    format: tsx
-    comments: concise
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/write-example

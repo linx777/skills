@@ -22,23 +22,6 @@ Drafts end-to-end and integration tests with fixtures, env setup, and mocks for 
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add integration-tests
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: integration-tests
-    framework: playwright
-    headless: true
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/integration-tests

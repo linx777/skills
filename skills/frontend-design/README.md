@@ -22,23 +22,6 @@ A design-forward Claude Skill that commits to a clear aesthetic direction and pr
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add frontend-design
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: frontend-design
-    version: 1.0.0
-    mode: bold
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/frontend-design

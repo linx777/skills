@@ -23,23 +23,6 @@ A presentation-focused skill that creates and restructures PPTX files while pres
 - PPTX Pipelines
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add pptx
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: pptx
-    preserve_layouts: true
-    notes: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/pptx

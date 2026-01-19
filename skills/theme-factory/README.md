@@ -23,23 +23,6 @@ A theming toolkit with 10 preset palettes and font pairings that can be applied 
 - Slides & Docs
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add theme-factory
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: theme-factory
-    presets: 10
-    generate: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/theme-factory

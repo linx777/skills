@@ -22,23 +22,6 @@ Provides a categorized index of Langroid patterns across agent/task basics, tool
 - Langroid
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add langroid-patterns
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: patterns
-    platform: langroid
-    references: indexed
-```
-
 ## Repository
 
 https://github.com/langroid/langroid/tree/main/plugins/langroid/skills/patterns

@@ -22,23 +22,6 @@ A writing-rules helper that scans repositories, surfaces unwritten conventions, 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add rule-identifier
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: rule-identifier
-    output: rules
-    mode: audit
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/hookify/skills/writing-rules

@@ -22,23 +22,6 @@ Sets voice and tone expectations, target audience, anti-AI language rules, and s
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-concept
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-concept
-    format: markdown
-    examples: true
-```
-
 ## Repository
 
 https://github.com/leonardomso/33-js-concepts/tree/master/.opencode/skill/write-concept

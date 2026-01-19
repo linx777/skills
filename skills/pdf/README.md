@@ -23,23 +23,6 @@ A PDF toolkit for text/table extraction, merging and splitting documents, rotati
 - Python 3.10+
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add pdf
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: pdf
-    forms: true
-    merge: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/pdf

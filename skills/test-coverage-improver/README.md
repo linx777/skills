@@ -22,23 +22,6 @@ Analyzes coverage reports and diffs to propose high-impact tests. It balances sp
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add test-coverage-improver
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: test-coverage-improver
-    mode: suggest
-    threshold: 80
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/test-coverage-improver

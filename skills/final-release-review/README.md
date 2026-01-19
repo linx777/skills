@@ -22,23 +22,6 @@ Aggregates diff insights, test status, and docs readiness into a single release 
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add final-release-review
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: final-release-review
-    checklist: full
-    output: summary
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/final-release-review

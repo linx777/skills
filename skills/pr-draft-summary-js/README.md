@@ -22,23 +22,6 @@ Focuses on JavaScript and TypeScript diffs, producing reviewer-ready summaries, 
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add pr-draft-summary-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: pr-draft-summary
-    runtime: node
-    include: risks,tests
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/pr-draft-summary

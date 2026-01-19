@@ -22,23 +22,6 @@ Runs a transparent raffle draw with seedable randomness, tie-break rules, and au
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add raffle-winner-picker
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: raffle-winner-picker
-    seed: required
-    winners: 1
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker

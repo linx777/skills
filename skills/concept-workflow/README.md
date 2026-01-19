@@ -22,23 +22,6 @@ Runs resource-curator, write-concept, test-writer, fact-check, and seo-review in
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add concept-workflow
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: concept-workflow
-    format: markdown
-    examples: true
-```
-
 ## Repository
 
 https://github.com/leonardomso/33-js-concepts/tree/master/.opencode/skill/concept-workflow

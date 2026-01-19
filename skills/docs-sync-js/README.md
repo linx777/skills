@@ -22,23 +22,6 @@ Monitors Node repos for drift, generates doc updates, and opens PRs. It ensures 
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add docs-sync-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: docs-sync
-    runtime: node
-    mode: pr
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/docs-sync

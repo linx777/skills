@@ -22,23 +22,6 @@ Pulls diff, test, and docs signals for Node projects to deliver a concise releas
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add final-release-review-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: final-release-review
-    runtime: node
-    checklist: full
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/final-release-review

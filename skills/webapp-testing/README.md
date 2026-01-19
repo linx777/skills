@@ -23,23 +23,6 @@ Automates browser testing via Playwright scripts to verify frontend behavior, ca
 - Playwright
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add webapp-testing
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: webapp-testing
-    runner: playwright
-    headless: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/webapp-testing

@@ -21,23 +21,6 @@ A registry-focused creator that emits SKILL.md, metadata, and safety defaults al
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add openai-skill-creator-system
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-creator
-    profile: system
-    safety: default
-```
-
 ## Repository
 
 https://github.com/openai/skills/tree/main/skills/.system/skill-creator

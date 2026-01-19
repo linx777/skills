@@ -22,23 +22,6 @@ A finance-focused analysis skill that reads balance sheets, income statements, a
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add analyzing-financial-statements
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: analyzing-financial-statements
-    outputs: ratios,summary
-    format: markdown
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-cookbooks/tree/main/skills/custom_skills/analyzing-financial-statements

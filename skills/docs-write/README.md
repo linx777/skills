@@ -23,23 +23,6 @@ Guides drafting, editing, and polishing docs with clear headings, descriptive li
 - Metabase
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add docs-write
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: docs-write
-    style: metabase
-    examples: true
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/docs-write

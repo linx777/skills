@@ -22,23 +22,6 @@ Provides a fact-checking methodology across code verification, MDN/spec alignmen
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add fact-check
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: fact-check
-    citations: required
-    output: diff
-```
-
 ## Repository
 
 https://github.com/leonardomso/33-js-concepts/tree/master/.opencode/skill/fact-check

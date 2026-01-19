@@ -24,23 +24,6 @@ Sets title standards, issue types and labels, body expectations for bugs/feature
 - GitHub
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-issue
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-issue
-    platform: github
-    assets: optional
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/write-issue

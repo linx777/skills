@@ -22,23 +22,6 @@ A JS/TS flavor of code-change verification that inspects diffs, proposes Playwri
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add code-change-verification-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: code-change-verification
-    runtime: node
-    tests: suggest
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/code-change-verification

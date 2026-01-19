@@ -23,23 +23,6 @@ Explains review mode detection, mandatory numbered feedback, and a checklist cov
 - Metabase
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add docs-review
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: docs-review
-    style: metabase
-    checklist: yes
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/docs-review

@@ -22,23 +22,6 @@ Builds MCP integrations end-to-end: tool definitions, resource schemas, authenti
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add mcp-integration
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: mcp-integration
-    auth: oauth
-    resources: true
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/mcp-integration

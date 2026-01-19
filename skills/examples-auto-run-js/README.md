@@ -22,23 +22,6 @@ Runs documentation snippets for Node and browser examples, flags regressions, an
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add examples-auto-run-js
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: examples-auto-run
-    runtime: node
-    output: logs
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/examples-auto-run

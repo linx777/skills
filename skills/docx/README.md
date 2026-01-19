@@ -23,23 +23,6 @@ A DOCX-focused skill for professional document workflows. It drafts, edits, and 
 - DOCX Pipelines
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add docx
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: docx
-    track_changes: true
-    comments: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/docx

@@ -22,22 +22,6 @@ Guides inputs and workflows for valuation models, sensitivity tables, simulation
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add creating-financial-models-modelscope
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: creating-financial-models
-    analyses: [DCF, sensitivity, MonteCarlo, scenarios]
-```
-
 ## Repository
 
 https://github.com/modelscope/ms-agent/tree/main/projects/agent_skills/skills/creating-financial-models

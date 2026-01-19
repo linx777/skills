@@ -22,23 +22,6 @@ Generates concise PR digests highlighting changes, risks, tests, and reviewers n
 - GitHub Actions
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add pr-draft-summary
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: pr-draft-summary
-    format: markdown
-    include: risks,tests
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-python/tree/main/.codex/skills/pr-draft-summary

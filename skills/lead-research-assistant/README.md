@@ -22,23 +22,6 @@ Gathers company and contact context, summarizing key details, pain points, and o
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add lead-research-assistant
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: lead-research-assistant
-    output: profile
-    depth: standard
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant

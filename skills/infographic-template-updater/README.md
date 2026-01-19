@@ -22,23 +22,6 @@ Guides collecting new template keys, updating template lists across SKILLs, play
 - Infographic
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add infographic-template-updater
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: infographic-template-updater
-    templates: src/templates
-    prompts: sync
-```
-
 ## Repository
 
 https://github.com/antvis/Infographic/tree/main/.skills/infographic-template-updater

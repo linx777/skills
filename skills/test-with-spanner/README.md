@@ -23,23 +23,6 @@ Provides guidance on setting up and running Spanner-related tests in the Storj c
 - Spanner
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add test-with-spanner
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: test-with-spanner
-    db: spanner
-    mode: integration
-```
-
 ## Repository
 
 https://github.com/storj/storj/tree/main/.claude/skills/test-with-spanner

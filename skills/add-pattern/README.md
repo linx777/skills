@@ -22,23 +22,6 @@ Explains how to append patterns to the patterns/SKILL.md index and create detail
 - Langroid
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add add-pattern
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: add-pattern
-    platform: langroid
-    docs: required
-```
-
 ## Repository
 
 https://github.com/langroid/langroid/tree/main/plugins/langroid/skills/add-pattern

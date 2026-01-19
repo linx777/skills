@@ -23,23 +23,6 @@ Provides prompts and categories to assess candidates, capture evidence, and summ
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add candidate-evaluation
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: candidate-evaluation
-    framework: pollinations
-    output: rubric
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/candidate-evaluation

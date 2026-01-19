@@ -23,23 +23,6 @@ Uses slimer to scaffold migrations, updates schema.js, runs knex-migrator and in
 - MySQL
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add create-database-migration
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: create-database-migration
-    tool: slimer
-    tests: required
-```
-
 ## Repository
 
 https://github.com/TryGhost/Ghost/tree/main/.claude/skills/create-database-migration

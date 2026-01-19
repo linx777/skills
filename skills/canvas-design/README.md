@@ -22,23 +22,6 @@ A visual design skill that writes a design manifesto and then expresses it as a 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add canvas-design
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: canvas-design
-    output: pdf
-    quality: high
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/canvas-design

@@ -22,23 +22,6 @@ A plugin-dev skill that shapes agent personas, allowed tools, and safety modes. 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add agent-identifier
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: agent-identifier
-    templates: persona
-    safety: strict
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/agent-development

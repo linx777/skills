@@ -21,23 +21,6 @@ A reference implementation shipped with Codex RS showing how to structure skill 
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add openai-skill-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-creator
-    language: rust
-    template: sample
-```
-
 ## Repository
 
 https://github.com/openai/codex/tree/main/codex-rs/core/src/skills/assets/samples/skill-creator

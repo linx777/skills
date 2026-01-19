@@ -22,23 +22,6 @@ Standardizes skill documentation by generating SKILL.md drafts, usage examples, 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add document-skills
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: document-skills
-    templates: true
-    examples: true
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills

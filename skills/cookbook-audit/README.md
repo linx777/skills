@@ -22,23 +22,6 @@ Checks recipes for missing steps, unsafe guidance, and broken links. Produces re
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add cookbook-audit
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: cookbook-audit
-    checks: [safety, completeness]
-    output: diff
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-cookbooks/tree/main/.claude/skills/cookbook-audit

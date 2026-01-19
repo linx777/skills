@@ -22,23 +22,6 @@ Covers reading item prompts, layout props, registerItem composites, and self-che
 - Infographic
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add infographic-item-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: infographic-item-creator
-    language: typescript
-    refs: item-prompt
-```
-
 ## Repository
 
 https://github.com/antvis/Infographic/tree/main/.skills/infographic-item-creator

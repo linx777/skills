@@ -22,23 +22,6 @@ Points to official docs, source navigation, and topic maps (install, config, pro
 - Codex CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add kimi-cli-help
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: kimi-cli-help
-    docs: https://moonshotai.github.io/kimi-cli
-    source: https://github.com/MoonshotAI/kimi-cli
-```
-
 ## Repository
 
 https://github.com/MoonshotAI/kimi-cli/tree/main/src/kimi_cli/skills/kimi-cli-help

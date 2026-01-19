@@ -22,23 +22,6 @@ An experimental planner that turns fuzzy asks into sequenced steps, checkpoints,
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add create-plan
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: create-plan
-    mode: experimental
-    checkpoints: true
-```
-
 ## Repository
 
 https://github.com/openai/skills/tree/main/skills/.experimental/create-plan

@@ -22,23 +22,6 @@ Guides structure category selection, layout decisions, registerStructure setup, 
 - Infographic
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add infographic-structure-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: infographic-structure-creator
-    language: typescript
-    refs: structure-prompt
-```
-
 ## Repository
 
 https://github.com/antvis/Infographic/tree/main/.skills/infographic-structure-creator

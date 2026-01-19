@@ -22,23 +22,6 @@ Covers legend inference, component creation, layout sizing, marker processing, a
 - G2
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add g2-legend-expert
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: g2-legend-expert
-    components: legendCategory,legendContinuous
-    layout: computePadding
-```
-
 ## Repository
 
 https://github.com/antvis/G2/tree/v5/.claude/skills/g2-legend-expert

@@ -22,23 +22,6 @@ Handles video download workflows by choosing formats, resolutions, and metadata 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add video-downloader
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: video-downloader
-    formats: mp4,webm
-    metadata: true
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader

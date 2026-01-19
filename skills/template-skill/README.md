@@ -22,23 +22,6 @@ Offers a minimal skill scaffold with SKILL.md, metadata placeholders, and exampl
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add template-skill
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: template-skill
-    template: base
-    files: starter
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/template-skill

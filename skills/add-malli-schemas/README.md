@@ -22,23 +22,6 @@ Provides reference files, a checklist for route/query/body/response schemas, exa
 - Metabase
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add add-malli-schemas
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: add-malli-schemas
-    validate: true
-    tests: required
-```
-
 ## Repository
 
 https://github.com/metabase/metabase/tree/master/.claude/skills/add-malli-schemas

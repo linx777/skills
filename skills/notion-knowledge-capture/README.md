@@ -23,23 +23,6 @@ Ingests notes, specs, and meeting recaps into Notion databases with metadata, ba
 - Notion API
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add notion-knowledge-capture
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: notion-knowledge-capture
-    links: backlinks
-    tags: auto
-```
-
 ## Repository
 
 https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture

@@ -23,23 +23,6 @@ Details how to adjust tiers, entitlements, and communication around tier changes
 - Pollinations
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add tier-management
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: tier-management
-    platform: pollinations
-    comms: required
-```
-
 ## Repository
 
 https://github.com/pollinations/pollinations/tree/main/.claude/skills/tier-management

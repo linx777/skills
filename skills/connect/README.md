@@ -22,23 +22,6 @@ Provides a guided flow to connect third-party apps, configure credentials, and v
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add connect
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: connect
-    auth: oauth
-    validate: true
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/connect

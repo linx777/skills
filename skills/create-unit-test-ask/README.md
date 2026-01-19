@@ -22,23 +22,6 @@ Guides writing unit tests in AnySoftKeyboard, focusing on coverage, structure, a
 - AnySoftKeyboard
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add create-unit-test-ask
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: create-unit-test
-    framework: junit
-    platform: android
-```
-
 ## Repository
 
 https://github.com/AnySoftKeyboard/AnySoftKeyboard/tree/main/.claude/skills/create-unit-test

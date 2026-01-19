@@ -22,23 +22,6 @@ Walks through finding PR templates, drafting descriptions with checklists, and u
 - Claude Code CLI
 - GitHub
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add gemini-pr-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: pr-creator
-    platform: gemini
-    checklist: true
-```
-
 ## Repository
 
 https://github.com/google-gemini/gemini-cli/tree/main/.gemini/skills/pr-creator

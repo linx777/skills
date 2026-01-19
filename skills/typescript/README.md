@@ -22,23 +22,6 @@ Covers preferencing `type`, co-location rules, array filters, import conventions
 - TypeScript
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add typescript
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: typescript
-    types: arktype
-    style: epicenter
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/typescript

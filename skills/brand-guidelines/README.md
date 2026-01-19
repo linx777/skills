@@ -23,23 +23,6 @@ Keeps artifacts on-brand by enforcing Anthropic colors, Poppins/Lora typography,
 - PPTX tooling
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add brand-guidelines
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: brand-guidelines
-    palette: anthropic
-    typography: poppins-lora
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/brand-guidelines

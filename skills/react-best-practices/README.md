@@ -23,23 +23,6 @@ A Vercel-backed skill that audits React apps for hooks correctness, component st
 - React 18+
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add react-best-practices
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: react-best-practices
-    framework: react
-    mode: review
-```
-
 ## Repository
 
 https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices

@@ -22,22 +22,6 @@ Provides structured patterns for internal communication: 3P updates, leadership 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add internal-comms
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: internal-comms
-    templates: 3p,newsletter,faq
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/internal-comms

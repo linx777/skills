@@ -23,23 +23,6 @@ Sets Conventional Commit title format and a PR body template with change type, t
 - GitHub
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-pr
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-pr
-    platform: github
-    checklist: true
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/write-pr

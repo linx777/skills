@@ -23,23 +23,6 @@ Defines the tldraw voice, avoids AI tells, and covers mechanics like sentence ca
 - tldraw
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add write-docs
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: write-docs
-    style: tldraw
-    examples: true
-```
-
 ## Repository
 
 https://github.com/tldraw/tldraw/tree/main/.claude/skills/write-docs

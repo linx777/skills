@@ -22,23 +22,6 @@ Parses invoice details, normalizes vendor data, and outputs structured summaries
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add invoice-organizer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: invoice-organizer
-    extract: line_items
-    output: csv
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer

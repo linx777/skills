@@ -22,23 +22,6 @@ Shows overloads vs union implementations, normalization to arrays, and structuri
 - TypeScript
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add single-or-array-pattern
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: single-or-array-pattern
-    api: overload
-    normalize: array
-```
-
 ## Repository
 
 https://github.com/EpicenterHQ/epicenter/tree/main/skills/single-or-array-pattern

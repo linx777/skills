@@ -22,23 +22,6 @@ Transforms research artifacts into one-page briefs with TL;DRs, risks, and decis
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add executive-briefing
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: executive-briefing
-    format: briefing
-    length: 1-page
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-agent-sdk-demos/tree/main/research-agent/.claude/skills/executive-briefing

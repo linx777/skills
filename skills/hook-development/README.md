@@ -22,23 +22,6 @@ Drafts pre- and post-command hooks, validates inputs, and wires telemetry for pl
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add hook-development
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: hook-development
-    language: typescript
-    hooks: [pre, post]
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/hook-development

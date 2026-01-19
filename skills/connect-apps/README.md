@@ -22,23 +22,6 @@ Configures multiple app connections, checks permissions, and documents required 
 - Claude App
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add connect-apps
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: connect-apps
-    apps: multi
-    scopes: required
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/connect-apps

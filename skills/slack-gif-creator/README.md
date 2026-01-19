@@ -23,23 +23,6 @@ A lightweight media skill for crafting Slack-friendly GIFs. It enforces dimensio
 - Slack
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add slack-gif-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: slack-gif-creator
-    max_dimensions: 480
-    loop: true
-```
-
 ## Repository
 
 https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator

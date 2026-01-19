@@ -21,23 +21,6 @@ Defines what skills provide, how to keep them concise, the degrees-of-freedom gu
 - Codex CLI
 - Claude Code CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add gemini-skill-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: skill-creator
-    platform: gemini
-    resources: scripts
-```
-
 ## Repository
 
 https://github.com/google-gemini/gemini-cli/tree/main/packages/core/src/skills/builtin/skill-creator

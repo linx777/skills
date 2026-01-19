@@ -22,23 +22,6 @@ Produces curated domain name lists using themes, keywords, and style constraints
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add domain-name-brainstormer
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: domain-name-brainstormer
-    styles: brandable
-    tlds: .com,.io
-```
-
 ## Repository
 
 https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer

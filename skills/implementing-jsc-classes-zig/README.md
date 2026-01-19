@@ -22,23 +22,6 @@ Explains .classes.ts definitions, generated code, Zig implementations with JSErr
 - Bun
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add implementing-jsc-classes-zig
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: implementing-jsc-classes-zig
-    language: zig
-    bindings: generator
-```
-
 ## Repository
 
 https://github.com/oven-sh/bun/tree/main/.claude/skills/implementing-jsc-classes-zig

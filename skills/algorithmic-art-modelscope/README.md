@@ -23,23 +23,6 @@ Combines algorithmic philosophy writing with p5.js implementations using flow fi
 - p5.js
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add algorithmic-art-modelscope
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: algorithmic-art
-    runtime: p5.js
-    seeds: true
-```
-
 ## Repository
 
 https://github.com/modelscope/ms-agent/tree/main/projects/agent_skills/skills/algorithmic-art

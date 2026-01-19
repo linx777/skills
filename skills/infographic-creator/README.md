@@ -23,23 +23,6 @@ Explains Infographic DSL basics, template selection, data structures, and theme 
 - Infographic
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add infographic-creator
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: infographic-creator
-    dsl: infographic
-    output: syntax
-```
-
 ## Repository
 
 https://github.com/antvis/Infographic/tree/main/.skills/infographic-creator

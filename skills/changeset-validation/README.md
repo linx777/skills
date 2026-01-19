@@ -23,23 +23,6 @@ Examines Changeset files, ensures versioning and policy compliance, and flags mi
 - Node Monorepos
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add changeset-validation
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: changeset-validation
-    policy: strict
-    output: report
-```
-
 ## Repository
 
 https://github.com/openai/openai-agents-js/tree/main/.codex/skills/changeset-validation

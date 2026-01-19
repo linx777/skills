@@ -22,23 +22,6 @@ Provides steps to track experiment progress, collect logs, and summarize outcome
 - open-instruct
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add monitor-experiment
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: monitor-experiment
-    project: open-instruct
-    logs: required
-```
-
 ## Repository
 
 https://github.com/allenai/open-instruct/tree/main/.claude/skills/monitor-experiment

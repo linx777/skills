@@ -22,23 +22,6 @@ Translates brand systems into tokens and applies them across artifacts. It respe
 - Claude Code CLI
 - Gemini CLI
 
-## Setup
-
-Command:
-
-```bash
-claude mcp add applying-brand-guidelines
-```
-
-YAML config:
-
-```yaml
-tools:
-  - name: applying-brand-guidelines
-    palette: custom
-    typography: paired
-```
-
 ## Repository
 
 https://github.com/anthropics/claude-cookbooks/tree/main/skills/custom_skills/applying-brand-guidelines
