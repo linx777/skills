@@ -1,41 +1,46 @@
 # Skills Library
 
-This repository hosts self-contained AI skills. Each skill packages domain guidance, runnable examples, and trigger metadata so agents can load just what they need.
+This repository is a catalog of reusable AI skills. Each skill is a self-contained package of guidance and metadata that an agent can load on demand to perform a focused task.
 
-## Layout
+## What You Will Find Here
 
-- `skills/<skill-id>/` — one folder per skill
-  - `README.md` — scope, usage, and maintenance notes for the skill
-  - `SKILL.md` — name/description/trigger metadata
-  - `AGENTS.md` — compiled guide an agent can load directly
-  - `metadata.json` — version, owner, and reference links
+- Curated skill packs that cover UI/UX, performance, content creation, and data tasks.
+- A consistent structure so skills can be discovered, loaded, and executed by tooling.
+- Compiled guides that agents can read directly without additional context.
+
+## How Skills Are Organized
+
+- `skills/<skill-id>/` — one folder per skill (namespaces are allowed, such as `skills/anthropic/<skill-id>/`)
+- Each skill folder includes:
+  - `README.md` — scope, intended users, and usage notes
+  - `SKILL.md` — name, description, and triggers
+  - `AGENTS.md` — compiled guide for agents
+  - `metadata.json` — versioning and ownership details
   - `rules/` — source rule files and templates
 
 ## Current Skills
 
-- `vercel-react-best-practices` — React and Next.js performance optimization guidelines from Vercel Engineering.
-- `landing-page-optimizer` — Conversion-focused landing page optimization playbook.
-- `algorithmic-art`
-- `brand-guidelines`
-- `canvas-design`
-- `doc-coauthoring`
-- `docx`
-- `frontend-design`
-- `internal-comms`
-- `mcp-builder`
-- `pdf`
-- `pptx`
-- `skill-creator`
-- `slack-gif-creator`
-- `theme-factory`
-- `web-artifacts-builder`
-- `webapp-testing`
-- `xlsx`
+- `vercel-react-best-practices` — React and Next.js performance optimization guidance from Vercel Engineering.
+- Unofficial pack under `skills/unofficial/`:
+  - `landing-page-optimizer` — Conversion-focused landing page optimization playbook.
+- Anthropic pack under `skills/anthropic/`:
+  - `algorithmic-art`
+  - `brand-guidelines`
+  - `canvas-design`
+  - `doc-coauthoring`
+  - `docx`
+  - `frontend-design`
+  - `internal-comms`
+  - `mcp-builder`
+  - `pdf`
+  - `pptx`
+  - `skill-creator`
+  - `slack-gif-creator`
+  - `theme-factory`
+  - `web-artifacts-builder`
+  - `webapp-testing`
+  - `xlsx`
 
-## Adding a New Skill
+## Learn More
 
-1. Create `skills/<skill-id>/` and add a `README.md` describing the scope and intended users.
-2. Add `SKILL.md` with the frontmatter (name, description, triggers) your agent runtime expects.
-3. Place your guidance in `rules/` (include a `_template.md` if helpful) and commit any compiled outputs such as `AGENTS.md`.
-4. Capture ownership details in `metadata.json` (version, organization, references).
-5. Update the **Current Skills** list above so discoverability stays up to date.
+Open any skill folder and start with its `README.md` to see what it covers and how it is meant to be used. For more detail, visit [https://aiagentskills.xyz/](https://aiagentskills.xyz/).
