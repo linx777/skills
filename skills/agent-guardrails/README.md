@@ -8,12 +8,12 @@ A safety-first skill that enforces non-negotiable practices across tooling, veri
 
 ## Metadata
 
-- Author: OpenAI
-- Downloads: 4.9k
-- Stars: 21100
+- Author: aiagentskills
+- Downloads: 1
+- Stars: 0
 - Roles: DevOps
 - Type: Agent Skill
-- Last updated: 2026.2.4
+- Last updated: 2026.1.21
 
 ## Compatibility
 
@@ -24,7 +24,7 @@ A safety-first skill that enforces non-negotiable practices across tooling, veri
 
 ## Repository
 
-https://github.com/openai/openai-agents-python/tree/main/.codex/skills/agent-guardrails
+https://github.com/aiagentskills/skills/tree/main/skills/agent-guardrails/agent-guardrails
 
 ## Included Files
 
